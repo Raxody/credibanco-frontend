@@ -5,14 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {  HttpClientModule } from '@angular/common/http';
 import { GetCardsComponent } from './Card/get-cards/get-cards.component';
-import { GetPurchasesComponent } from './Card/get-purchases/get-purchases.component';
 import { FormsModule } from '@angular/forms';
+import { GetPurchaseComponent } from './Purchase/get-purchase/get-purchase.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GetCardsComponent,
-    GetPurchasesComponent
+    GetPurchaseComponent,
   ],
   imports: [
     BrowserModule,
